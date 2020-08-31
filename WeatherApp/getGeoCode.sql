@@ -28,5 +28,3 @@ SYSTOOLS.HTTPGETCLOB(
   )error on error
   ) as x;
   END
-
-  call apkhekale1.getGeoCode('Pune','pk.eyJ1IjoiYXBraGVrYWxlIiwiYSI6ImNrY2FoajExNTFzeHYyc3Fwajg2ZmF1b2kifQ.YSNiJ5LvG3wDMYQvyQepwA', '','','')

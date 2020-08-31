@@ -28,5 +28,3 @@ SYSTOOLS.HTTPGETCLOB(
   ) as x;
   END
 
-
-  call apkhekale1.getForecast(18.50,73.70,'b2c57a9741b8de0d0d38e10f3bd69a03','','')
