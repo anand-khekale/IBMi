@@ -26,7 +26,7 @@
      A            WTEXT         45A  O  7 33COLOR(YLW)
      A                                  9  2'Current Temperature . . . . .'
      A                                  9 41'Degree Celsius'
-     A                                      COLOR(TRQ)
+     A                                      COLOR(TRQ)  
      A                                 23  2'F3=Exit'
      A                                      COLOR(BLU)
      A            CURTEMP        5Y 2O  9 33EDTWRD('   .  ')
