@@ -1,0 +1,16 @@
+{
+  "name": "currency",
+  "version": "1.0.0",
+  "description": "Fetch Currency API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js 'USD'",
+    "test": "node app.js 'USD'"
+  },
+  "author": "AnandK",
+  "license": "ISC",
+  "dependencies": {
+    "idb-pconnector": "^1.0.8",
+    "needle": "^2.5.2"
+  }
+}

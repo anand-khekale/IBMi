@@ -1,0 +1,10 @@
+/* ========================================================================== */
+/* Program Name : RUNNODE                                                     */
+/* Author       : www.anandk.dev                                              */
+/* Date written : 30th September 2020                                         */
+/* Description  : Program to run NodeJS API to Fetch Currency data            */
+/* ========================================================================== */
+             PGM
+             QSH        CMD('/home/ANANDK/runcurrency.sh')
+             ENDPGM
+/* ========================================================================== */
