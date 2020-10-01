@@ -9,7 +9,7 @@ const sql = `CREATE OR REPLACE TABLE APKHEKALE1.CURRENCY(
                 EUR Decimal(12, 4),
                 GBP Decimal(12, 4),
                 INR Decimal(12, 4),
-                SGD Decimal(12, 4)) RCDFMT RCURRENCY`
+                SGD Decimal(12, 4)) RCDFMT RCURRENCY`;
 
 const label = `LABEL ON COLUMN APKHEKALE1.CURRENCY (
                 Date TEXT IS 'Date fetched',
@@ -18,7 +18,7 @@ const label = `LABEL ON COLUMN APKHEKALE1.CURRENCY (
                 EUR  TEXT IS 'Euro',
                 GBP  TEXT IS 'Pound sterling',
                 INR  TEXT IS 'Indian Rupee',
-                SGD  TEXT IS 'Singapore Dollars')`
+                SGD  TEXT IS 'Singapore Dollars')`;
 
 const colhdg = `LABEL ON COLUMN APKHEKALE1.CURRENCY (
                 Date  IS 'Date fetched',
@@ -27,7 +27,7 @@ const colhdg = `LABEL ON COLUMN APKHEKALE1.CURRENCY (
                 EUR  IS 'Euro',
                 GBP  IS 'Pound sterling',
                 INR  IS 'Indian Rupee',
-                SGD  IS 'Singapore Dollars')`
+                SGD  IS 'Singapore Dollars')`;
 // Write async - promised based function so that await can be used
 async function createDB() {
 
@@ -45,7 +45,7 @@ async function createDB() {
 
         await pool.detach(connection); //Once done, detach/close the connection 
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
 }
 

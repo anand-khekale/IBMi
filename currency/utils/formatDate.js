@@ -8,16 +8,16 @@ function formatDate(timestamp) {
     var minutes = date.getUTCMinutes().toString();
     var seconds = date.getUTCSeconds().toString();
     if (hours.length == 1) {
-        hours = '0' + hours
+        hours = '0' + hours;
     }
     if (minutes.length == 1) {
-        var minutes = '0' + minutes
+        var minutes = '0' + minutes;
     }
     if (seconds.length == 1) {
-        var seconds = '0' + seconds
+        var seconds = '0' + seconds;
     }
     // Return the timestamp in IBM i format CCYY-MM-DD-HH.MM.SS
     return (year + "-" + month + "-" + day + "-" + hours + "." + minutes + "." + seconds);
 }
 
-module.exports = formatDate
+module.exports = formatDate;
