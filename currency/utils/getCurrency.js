@@ -7,7 +7,7 @@ const getCurrency = (baseCurr, callback) => {
     const url = `https://openexchangerates.org/api/latest.json?app_id=${API_KEY}&base=${baseCurr}`
     needle.get(url, function (error, response) {
         if (error) { //Check if there are any communication errors
-            callback('Unable to connect to currency services', undefined)
+            callback('Unable to connect to currency services', undefined);
         } else if (response.body.error) { // Check if we received any error from API
             callback({ "error": response.body.description }, undefined);
         } else if (!error && response.statusCode == 200) { // All went well and we have the needed data

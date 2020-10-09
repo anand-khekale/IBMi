@@ -5,6 +5,6 @@
 /* Description  : Program to run NodeJS API to Fetch Currency data            */
 /* ========================================================================== */
              PGM
-             QSH        CMD('/home/ANANDK/runcurrency.sh')
+             QSH        CMD('/home/ANANDK/currency/runcurrency.sh')
              ENDPGM
 /* ========================================================================== */
